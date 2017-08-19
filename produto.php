@@ -1,5 +1,5 @@
  <?php include("header.php"); ?>
-      
+    <div class="container">
       <div class="produto">
           <h1>Fuzzy Cardian</h1>
           <p>por apenas R$ 129,00</p>
@@ -27,6 +27,7 @@
               
               <input type="submit" class="comprar" value="Comprar">
           </form>
-      </div>
+        </div>
+    </div>
       
 <?php include("footer.php"); ?>
