@@ -77,6 +77,9 @@
         <li>Presente em 124 países</li>
         <li>Mais de um milhão de funcionários em todo o mundo</li>
     </ul>
+
+    <h2>Video institucional</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Tb06abHE4hY" frameborder="0" allowfullscreen></iframe>
       
     <div id="rodape">
         <img src="img/logo.png">

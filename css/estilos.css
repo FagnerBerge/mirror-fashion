@@ -29,7 +29,7 @@
 
 body {
     color: #333333;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-family: "PT Sans", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 .container {
@@ -144,6 +144,7 @@ body {
 }
 
 .painel h2 {
+    font-family: "Bad Script", sans-serif;
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
@@ -218,6 +219,18 @@ footer .container {
 .menu-departamentos li li a:before {
     content: '\2756';
     padding-right: 3px;
+}
+
+.painel button {
+    display: none;
+}
+
+.painel-compacto li:nth-child(n+7) {
+    display: none;
+}
+
+.painel-compacto button {
+    display: block;
 }
 
 /*zueira
