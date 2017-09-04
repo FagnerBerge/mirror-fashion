@@ -1,12 +1,22 @@
-var x = 0;
+var banners = ["img/destaque-home.png", "img/destaque-home-2.png"];
+var bannersAtual = 0;
+
 function trocaBanner() {
-    var banner = document.querySelector(".destaque img");
-    if (x == 0) {
-        banner.src="img/destaque-home-2.png";
-        x = 1;
-    } else {
-            banner.src="img/destaque-home.png";
-            x = 0;
-        }
+    bannersAtual = (bannersAtual + 1) % 2;
+    document.querySelector('.destaque img').src = banners[bannersAtual];
 }
-setInterval(trocaBanner, 5000);
+
+var timer = setInterval(trocaBanner, 4000);
+var controle = document.querySelector('.pause');
+
+controle.onclick = function() {
+    if (controle.className == 'pause') {
+        clearInterval(timer);
+        controle.className = 'play';
+    } else {
+        timer = setInterval(trocaBanner, 4000);
+        controle.className = 'pause';
+    }
+
+    return false;
+};

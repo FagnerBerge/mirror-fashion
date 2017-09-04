@@ -48,6 +48,7 @@
               </nav>
         </section><!-- fim .menu-departamentos -->
           
+        <a href="#" class="pause"></a>
         <img src="img/destaque-home.png" alt="Promocao: Big City Night">
       </div><!-- fim .container .destaque -->
       
