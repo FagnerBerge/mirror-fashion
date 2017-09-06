@@ -129,7 +129,7 @@
                         </div>
                         <div class="form-group">
                             <label for="validade-cartao">Validade</label>
-                            <input type="month" class="form-control" id="validade-cartao" name="validade-cartao"
+                            <input type="text" class="form-control" id="validade-cartao" name="validade-cartao"
                             data-mask="99/9999">
                         </div>
                         

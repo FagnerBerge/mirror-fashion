@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><?php print $cabecalho_title; ?></title>
+    <title>Mirror Fashion</title>
     <meta charset="utf-8"/>
     <meta name="viewport"
           content="width=device-width"/>
