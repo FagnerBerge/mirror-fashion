@@ -91,6 +91,8 @@
     </div>
             
     <?php include("footer.php"); ?>
+
+    <script src="js/jquery.js"></script>
       
   </body>
 </html>

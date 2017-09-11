@@ -20,15 +20,15 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php">Mirror Fashion</a>
+                <a class="navbar-brand" href="index.php"><span class="glyphicon glyphicon-home"></span> Mirror Fashion</a>
             </div>
 
             <div class="collapse navbar-collapse" id="navbar-collapse-id">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="sobre.php">Sobre</a></li>
-                    <li><a href="#">Ajuda</a></li>
-                    <li><a href="#">Perguntas frequentes</a></li>
-                    <li><a href="#">Entre em contato</a></li>
+                    <li class="active"><a href="sobre.php"> Sobre</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-question-sign"></span> Ajuda</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-list"></span> Perguntas frequentes</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-bullhorn"></span> Entre em contato</a></li>
                 </ul>
             </div>
         </nav>

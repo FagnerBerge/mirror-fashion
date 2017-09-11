@@ -8,7 +8,7 @@
   </head>
   <body>
       
-    <img src="img/logo.png">
+    <a href="index.php"><img src="img/logo.png"></a>
     <h1 class="titulo">A Mirror Fashion</h1>
       
     <p>
@@ -28,7 +28,7 @@
     </figure>
       
     <p>
-        Compre suas roupas e acessórios na Mirror Fashion. Acesse <a href="index.html">nossa</a> loja ou entre em contato
+        Compre suas roupas e acessórios na Mirror Fashion. Acesse <a href="index.php">nossa</a> loja ou entre em contato
         se tiver dúvidas. Conheça também nossa <a href="#historia">história</a> e nossos <a href="#diferenciais">diferenciais</a>.
     </p>
       
